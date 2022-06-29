@@ -1,0 +1,29 @@
+.title {
+    color: #767B4B;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    letter-spacing: 5px;
+}
+
+.carrusel {
+    Padding: 20px 100px 20px 100px;
+}
+
+.text {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    width: 92%;
+    padding: 0 25px;
+    transform: translate(-50%, -50%);
+}

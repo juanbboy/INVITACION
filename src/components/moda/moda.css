@@ -1,0 +1,26 @@
+.conte {
+    background-color: #F4F0ED;
+}
+
+.titulo1 {
+    color: #767B4B;
+    font-family: "Prata", Sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.cont {
+    color: #7E7E7E;
+    font-family: "Prata", Sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.parrafo {
+    font-family: "lora", Sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 200;
+}

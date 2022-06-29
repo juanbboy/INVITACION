@@ -1,0 +1,69 @@
+.countdown-container {
+    background-color: rgba(255, 255, 255, 0);
+    border-style: double;
+    border-width: 4px 4px 4px 4px;
+    border-color: #767B4B;
+    padding: 25px 20px 25px 20px;
+}
+
+.countdown-container .number {
+    color: #7E7E7E;
+    font-family: "Muli", Sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.countdown-container .concept {
+    text-align: center;
+    color: #7E7E7E;
+    font-family: "Muli", Sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 4em;
+    letter-spacing: 2px;
+}
+
+.tex2 {
+    text-align: center;
+    color: #262626;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    Padding: 0px 0px 50px 0;
+}
+
+.tex1 {
+    color: #767B4B;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    letter-spacing: 5px;
+}
+
+.elementor-widget-container {
+    text-align: center;
+    color: #000000;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 25px 300px 25px 300px;
+}
+
+.imagen {
+    opacity: 0.3;
+    padding: 15px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
