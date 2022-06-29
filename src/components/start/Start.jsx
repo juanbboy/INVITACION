@@ -28,12 +28,12 @@ const Start = () => {
                     <h1 style={{ color: "#3D4212", fontFamily: 'Cormorant Garamond', textAlign: "center", fontSize: '25px', fontWeight: 'bold' }}>DOMINGO</h1>
                     <hr className='linea' />
                 </div>
-                <div className="col-md-2 ">
-                    <h1 style={{ color: "#3D4212", fontFamily: 'Cormorant Garamond', textAlign: "center", fontSize: '40px', lineHeight: '2.0em', letterSpacing: '5px' }}>16</h1>
+                <div className="col-md-2 num">
+                    <div style={{ color: "#3D4212", fontFamily: 'Cormorant Garamond', textAlign: "center", letterSpacing: '5px' }}>16</div>
                 </div>
                 <div className="col-md-2 col1">
                     <hr className='linea' />
-                    <h1 style={{ color: "#3D4212", fontFamily: 'Oxygen', textAlign: "center", fontSize: '25px', letterSpacing: '6px' }}>2022</h1>
+                    <div style={{ color: "#3D4212", fontFamily: 'Oxygen', textAlign: "center", letterSpacing: '6px' }}>2022</div>
                     <hr className='linea' />
                 </div>
                 <div className="row justify-content-center ">

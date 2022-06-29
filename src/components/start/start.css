@@ -29,10 +29,17 @@
 
     .col1 {
         order: 1;
+        font-size: 25px;
+        line-height: 0.7em;
     }
 
     .col2 {
         order: 0;
+    }
+
+    .num {
+        line-height: 0.7em;
+        font-size: 40px;
     }
 }
 
@@ -61,6 +68,11 @@
     .col2 {
         order: 1;
     }
+
+    .num {
+        line-height: 2.0em;
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -87,5 +99,10 @@
 
     .col2 {
         order: 1;
+    }
+
+    .num {
+        line-height: 2.0em;
+        font-size: 40px;
     }
 }
