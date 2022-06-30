@@ -38,14 +38,13 @@ const Countdown = () => {
         backgroundPosition: 'bottom center',
         backgroundRepeat: 'no-repeat',
         textAlign: 'center',
-        transition: 'background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s',
-        padding: '120px 0 120px 0'
+        padding: '120px 0px 120px 0px'
     }
 
     return (
-        <div style={containerStyle}>
+        <div style={containerStyle} className="fondo">
             <div>
-                <h2 className="tex1">NOS VAMOS A CASAR</h2>
+                <div className="tex1">NOS VAMOS A CASAR</div>
             </div>
             <div className="imagen">
                 <img width="168" height="15" src="../assets/3.png" className="attachment-medium_large size-medium_large jetpack-lazy-image lazyloaded jetpack-lazy-image--handled" alt="" sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" data-lazy-loaded="1" loading="eager"></img>
@@ -53,8 +52,8 @@ const Countdown = () => {
             <div className="tex2">
                 <p style={{ textAlign: 'center' }}>¡ya falta poco! y estamos felices de celebrar nuestra unión.</p>
             </div>
-            <div className="row justify-content-center ">
-                <div className="col-md-2">
+            <div className="row justify-content-center colum ">
+                <div className="col-2">
                     <div className="countdown-container">
                         <div className="number">
                             {days}
@@ -62,7 +61,7 @@ const Countdown = () => {
                         <div className="concept">DIAS</div>
                     </div>
                 </div>
-                <div className="col-md-2">
+                <div className="col-2">
                     <div className="countdown-container">
                         <div className="number">
                             {hours}
@@ -70,7 +69,7 @@ const Countdown = () => {
                         <div className="concept">Horas</div>
                     </div>
                 </div>
-                <div className="col-md-2">
+                <div className="col-2">
                     <div className="countdown-container">
                         <div className="number">
                             {mins}
@@ -78,7 +77,7 @@ const Countdown = () => {
                         <div className="concept">MINUTOS</div>
                     </div>
                 </div>
-                <div className="col-md-2">
+                <div className="col-2">
                     <div className="countdown-container">
                         <div className="number">
                             {seconds}

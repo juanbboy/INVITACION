@@ -1,12 +1,5 @@
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    width: 980px;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-
 @media (min-width: 320px) {
+
     .text1 {
         font-size: 15px;
     }
