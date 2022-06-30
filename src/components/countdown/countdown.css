@@ -1,10 +1,22 @@
 @media (min-width: 320px) {
+    .fondo {
+        padding: 50px 0px
+    }
+
+    .col-3 {
+        padding: 2.5px;
+    }
+
+    .row {
+        padding: 20px 35px;
+    }
+
     .countdown-container {
         background-color: rgba(255, 255, 255, 0);
         border-style: double;
-        border-width: 4px 4px 4px 4px;
+        border-width: 3px;
         border-color: #767B4B;
-        padding: 0px 0px 0px 0px;
+        padding: 5px 0px 0px 0px;
     }
 
     .countdown-container .number {
@@ -19,7 +31,7 @@
         text-align: center;
         color: #7E7E7E;
         font-family: "Muli", Sans-serif;
-        font-size: 5px;
+        font-size: 8px;
         font-weight: 600;
         text-transform: uppercase;
         line-height: 4em;
@@ -30,7 +42,7 @@
     .tex1 {
         color: #767B4B;
         font-family: "Cormorant Garamond", Sans-serif;
-        font-size: 40px;
+        font-size: 24px;
         font-weight: 400;
         text-transform: uppercase;
         line-height: 1.25em;
@@ -41,17 +53,17 @@
         text-align: center;
         color: #262626;
         font-family: "Cormorant Garamond", Sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 300;
         font-style: italic;
-        Padding: 0px 0px 50px 0;
+        /* Padding: 10px 0px 10px 0px; */
     }
 
     .elementor-widget-container {
         text-align: center;
         color: #000000;
         font-family: "Cormorant Garamond", Sans-serif;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 300;
         font-style: italic;
         /* padding: 25px 300px 25px 300px; */
@@ -59,12 +71,20 @@
 }
 
 @media (min-width: 1024px) {
+    .fondo {
+        padding: 120px 0px
+    }
+
+    .row {
+        padding: 0px 160px;
+    }
+
     .countdown-container {
         background-color: rgba(255, 255, 255, 0);
         border-style: double;
         border-width: 4px 4px 4px 4px;
         border-color: #767B4B;
-        padding: 25px 20px 25px 20px;
+        padding: 30px;
     }
 
     .countdown-container .number {
@@ -114,6 +134,10 @@
         font-weight: 300;
         font-style: italic;
         padding: 25px 300px 25px 300px;
+    }
+
+    .col-3 {
+        padding: 20px;
     }
 }
 

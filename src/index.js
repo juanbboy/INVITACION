@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <div> */}
-    {/* <Start /> */}
+    <Start />
     <Countdown />
     {/* <Site /> */}
     {/* <Moments /> */}

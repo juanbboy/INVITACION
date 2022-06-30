@@ -38,7 +38,7 @@ const Countdown = () => {
         backgroundPosition: 'bottom center',
         backgroundRepeat: 'no-repeat',
         textAlign: 'center',
-        padding: '120px 0px 120px 0px'
+        // padding: '120px 0px 120px 0px'
     }
 
     return (
@@ -53,7 +53,7 @@ const Countdown = () => {
                 <p style={{ textAlign: 'center' }}>¡ya falta poco! y estamos felices de celebrar nuestra unión.</p>
             </div>
             <div className="row justify-content-center colum ">
-                <div className="col-2">
+                <div className="col-3">
                     <div className="countdown-container">
                         <div className="number">
                             {days}
@@ -61,7 +61,7 @@ const Countdown = () => {
                         <div className="concept">DIAS</div>
                     </div>
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <div className="countdown-container">
                         <div className="number">
                             {hours}
@@ -69,7 +69,7 @@ const Countdown = () => {
                         <div className="concept">Horas</div>
                     </div>
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <div className="countdown-container">
                         <div className="number">
                             {mins}
@@ -77,7 +77,7 @@ const Countdown = () => {
                         <div className="concept">MINUTOS</div>
                     </div>
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <div className="countdown-container">
                         <div className="number">
                             {seconds}
