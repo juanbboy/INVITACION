@@ -36,7 +36,7 @@ const Start = () => {
                     <div style={{ color: "#3D4212", fontFamily: 'Oxygen', textAlign: "center", letterSpacing: '6px' }}>2022</div>
                     <hr className='linea' />
                 </div>
-                <div className="row justify-content-center ">
+                <div className="row justify-content-center p-1 ">
                     <div className="col-md-2 col2">
                         <h1 style={{ color: "#3D4212", fontFamily: 'Italianno', textAlign: "center", fontSize: '45px' }}>Octubre</h1>
                     </div>
