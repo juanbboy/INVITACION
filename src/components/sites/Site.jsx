@@ -31,7 +31,7 @@ const Site = () => {
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1000}>
                         <img
                             className="d-block w-100"
                             src="../assets/1.png"
@@ -42,7 +42,7 @@ const Site = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={1000}>
                         <img
                             className="d-block w-100"
                             src="../assets/1.png"

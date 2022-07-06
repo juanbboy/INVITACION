@@ -10,11 +10,10 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <div> */}
     <Start />
     <Countdown />
-    {/* <Site /> */}
-    {/* <Moments /> */}
+    <Site />
+    <Moments />
     {/* <Moda /> */}
     {/* <footer className="pt-3 mt-4 text-muted border-top text-center"> */}
     {/* &copy; 2022 */}
