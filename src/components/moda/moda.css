@@ -5,7 +5,6 @@
 .titulo1 {
     color: #767B4B;
     font-family: "Prata", Sans-serif;
-    font-size: 48px;
     font-weight: 200;
     text-align: center;
 }
@@ -13,7 +12,6 @@
 .cont {
     color: #7E7E7E;
     font-family: "Prata", Sans-serif;
-    font-size: 30px;
     font-weight: 200;
 }
 
@@ -21,6 +19,35 @@
     font-family: "lora", Sans-serif;
     color: #000000;
     font-style: normal;
-    font-size: 14px;
     font-weight: 200;
+}
+
+@media (min-width: 320px) {
+
+    .titulo1 {
+        font-size: 30px;
+    }
+
+    .cont {
+        font-size: 24px;
+    }
+
+    .parrafo {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .titulo1 {
+        font-size: 48px;
+    }
+
+    .cont {
+        font-size: 30px;
+    }
+
+    .parrafo {
+        font-size: 14px;
+    }
 }

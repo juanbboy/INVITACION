@@ -14,7 +14,7 @@ root.render(
     <Countdown />
     <Site />
     <Moments />
-    {/* <Moda /> */}
+    <Moda />
     {/* <footer className="pt-3 mt-4 text-muted border-top text-center"> */}
     {/* &copy; 2022 */}
     {/* </footer> */}

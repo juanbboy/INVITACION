@@ -14,7 +14,7 @@ const Site = () => {
     }
 
     return (
-        <div style={containerStyle}>
+        <div style={containerStyle} className="p-4">
             <div>
                 <h2 className="tex1">El lugar de nuestra boda</h2>
             </div>
