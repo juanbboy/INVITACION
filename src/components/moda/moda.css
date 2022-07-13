@@ -30,10 +30,12 @@
 
     .cont {
         font-size: 24px;
+        text-align: center;
     }
 
     .parrafo {
         font-size: 12px;
+        text-align: center;
     }
 }
 

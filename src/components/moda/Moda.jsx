@@ -18,7 +18,7 @@ const Moda = () => {
                         Formal guayabera
                     </div>
                     <div className="">
-                        <img src="../assets/1.png" alt="Responsive image" width="170" height="300" />
+                        <img src="../assets/1.png" alt="Responsive image" width="100%" height="300" />
                     </div>
                 </div>
                 <div className='col-sm-6 text-start' >
