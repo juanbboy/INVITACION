@@ -21,11 +21,11 @@ const Moda = () => {
                         <img src="../assets/1.png" alt="Responsive image" width="170" height="300" />
                     </div>
                 </div>
-                <div className='col-sm-6  text-start' >
+                <div className='col-sm-6 text-start' >
                     <div className='cont p-3'>Mujeres</div>
                     <div className='parrafo p-2'>Vestido largo</div>
                     <div className="">
-                        <img src="../assets/1.png" alt="Responsive image" width="170" height="300" />
+                        <img src="../assets/1.png" alt="Responsive image" width="100%" height="300" />
                     </div>
                 </div>
             </div>
