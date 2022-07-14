@@ -12,7 +12,7 @@ const Moda = () => {
             </div>
             <div className='titulo1 p-4'>Código de vestuario</div>
             <div className='row'>
-                <div className='col-sm-6 bloq1 border-end border-2 color-#767B4B' >
+                <div className='col-sm-6 bloq1' >
                     <div className='cont'>Hombres</div>
                     <div className='parrafo p-2'>
                         Formal guayabera
