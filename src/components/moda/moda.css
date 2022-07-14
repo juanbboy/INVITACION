@@ -26,16 +26,18 @@
 
     .titulo1 {
         font-size: 30px;
+
     }
 
     .cont {
         font-size: 24px;
-        text-align: center;
+        /* text-align: center; */
+        padding: 5px;
     }
 
     .parrafo {
         font-size: 12px;
-        text-align: center;
+        /* text-align: center; */
     }
 }
 
@@ -47,6 +49,8 @@
 
     .cont {
         font-size: 30px;
+        padding: 16px;
+
     }
 
     .parrafo {
