@@ -39,6 +39,14 @@
         font-size: 12px;
         /* text-align: center; */
     }
+
+    .bloq1 {
+        text-align: center;
+    }
+
+    .bloq2 {
+        text-align: center;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -55,5 +63,13 @@
 
     .parrafo {
         font-size: 14px;
+    }
+
+    .bloq1 {
+        text-align: end;
+    }
+
+    .bloq2 {
+        text-align: start;
     }
 }
