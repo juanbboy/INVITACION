@@ -6,7 +6,7 @@ import './sites.css';
 const Site = () => {
     const containerStyle = {
         // backgroundImage: `url(${cinco})`,
-        backgroundColor: '#F4F0ED',
+        // backgroundColor: '#F4F0ED',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         // opacity: 0.5,
