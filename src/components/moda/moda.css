@@ -32,7 +32,7 @@
     .cont {
         font-size: 24px;
         /* text-align: center; */
-        padding: 5px;
+        padding: 0px;
     }
 
     .parrafo {
@@ -46,6 +46,7 @@
 
     .bloq2 {
         text-align: center;
+        padding: 35px 0px;
     }
 }
 

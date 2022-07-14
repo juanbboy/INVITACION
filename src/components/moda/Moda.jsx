@@ -13,7 +13,7 @@ const Moda = () => {
             <div className='titulo1 p-4'>Código de vestuario</div>
             <div className='row'>
                 <div className='col-sm-6 bloq1 border-end border-2 color-#767B4B' >
-                    <div className='cont p-3'>Hombres</div>
+                    <div className='cont'>Hombres</div>
                     <div className='parrafo p-2'>
                         Formal guayabera
                     </div>
@@ -22,7 +22,7 @@ const Moda = () => {
                     </div>
                 </div>
                 <div className='col-sm-6 bloq2 ' >
-                    <div className='cont p-3'>Mujeres</div>
+                    <div className='cont'>Mujeres</div>
                     <div className='parrafo p-2'>Vestido largo</div>
                     <div className="">
                         <img src="../assets/1.png" alt="Responsive image" width="100%" height="300" />
