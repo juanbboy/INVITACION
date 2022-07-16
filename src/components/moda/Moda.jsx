@@ -17,15 +17,15 @@ const Moda = () => {
                     <div className='parrafo p-2'>
                         Formal guayabera
                     </div>
-                    <div className="">
-                        <img src="../assets/1.png" alt="Responsive image" width="100%" height="300" />
+                    <div className="p-3">
+                        <img src="../assets/completa-y-jeans4.webp" alt="Responsive image" width="130" height="300" />
                     </div>
                 </div>
                 <div className='col-sm-6 bloq2 ' >
                     <div className='cont'>Mujeres</div>
                     <div className='parrafo p-2'>Vestido largo</div>
-                    <div className="">
-                        <img src="../assets/1.png" alt="Responsive image" width="100%" height="300" />
+                    <div className="p-3">
+                        <img src="../assets/mujeres2.webp" alt="Responsive image" width="200" height="300" />
                     </div>
                 </div>
             </div>
