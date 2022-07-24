@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Countdown from './components/countdown/Countdown';
 import Hospedaje from './components/hospedaje/Hospedaje';
 import Invita from './components/invita/Invita';
+import Maps from './components/maps/Maps';
 import Moda from './components/moda/Moda';
 import Moments from './components/moments/Moments';
 import Site from './components/sites/Site';
@@ -12,6 +13,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Maps />
     <Start />
     <Invita />
     <Countdown />

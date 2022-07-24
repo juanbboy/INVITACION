@@ -70,13 +70,86 @@
     }
 }
 
+@media (min-width: 768px) {
+    .fondo {
+        padding: 120px 0px
+    }
+
+    .row {
+        /* padding: 0px 160px; */
+        padding: 0px 10%;
+    }
+
+    .countdown-container {
+        background-color: rgba(255, 255, 255, 0);
+        border-style: double;
+        border-width: 4px 4px 4px 4px;
+        border-color: #767B4B;
+        /* padding: 30px; */
+        padding: 1%;
+    }
+
+    .countdown-container .number {
+        color: #7E7E7E;
+        font-family: "Muli", Sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .countdown-container .concept {
+        text-align: center;
+        color: #7E7E7E;
+        font-family: "Muli", Sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 4em;
+        letter-spacing: 2px;
+    }
+
+    .tex2 {
+        text-align: center;
+        color: #262626;
+        font-family: "Cormorant Garamond", Sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: italic;
+        Padding: 0px 0px 50px 0;
+    }
+
+    .tex1 {
+        color: #767B4B;
+        font-family: "Cormorant Garamond", Sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1.25em;
+        letter-spacing: 5px;
+    }
+
+    .elementor-widget-container {
+        text-align: center;
+        color: #000000;
+        font-family: "Cormorant Garamond", Sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        font-style: italic;
+        padding: 25px 15%;
+    }
+
+    .col-3 {
+        padding: 20px;
+    }
+}
+
 @media (min-width: 1024px) {
     .fondo {
         padding: 120px 0px
     }
 
     .row {
-        padding: 0px 160px;
+        padding: 0px 10%;
     }
 
     .countdown-container {

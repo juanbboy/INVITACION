@@ -1,8 +1,8 @@
+import { AOS } from "aos";
 import React from "react";
 import { useState } from "react";
 import './countdown.css';
 // import cuatro from '../../assets/4.png';
-
 
 const Countdown = () => {
     const [days, setDays] = useState()
@@ -11,10 +11,10 @@ const Countdown = () => {
     const [seconds, setSeconds] = useState()
     const newYear = '16 oct 2022'
 
+
     const countTimer = () => {
         const newYearDate = new Date(newYear);
         const currentDate = new Date();
-
 
         const totalSeconds = (newYearDate - currentDate) / 1000;
         const daysCalc = Math.floor(totalSeconds / 3600 / 24);
@@ -41,10 +41,13 @@ const Countdown = () => {
         // padding: '120px 0px 120px 0px'
     }
 
+
     return (
+
         <div style={containerStyle} className="fondo">
+
             <div>
-                <div className="tex1">NOS VAMOS A CASAR</div>
+                <div data-aos="fade-up" className="tex1 ">NOS VAMOS A CASAR</div>
             </div>
             <div className="imagen">
                 <img width="168" height="15" src="../assets/3.png" className="attachment-medium_large size-medium_large jetpack-lazy-image lazyloaded jetpack-lazy-image--handled" alt="" sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" data-lazy-loaded="1" loading="eager"></img>
