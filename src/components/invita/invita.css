@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+    .pad {
+        padding: 20px 250px;
+        font-style: italic;
+    }
+}
