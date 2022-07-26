@@ -16,7 +16,7 @@ const Site = () => {
     }
 
     return (
-        <div style={containerStyle} className="p-5">
+        <div style={containerStyle} className="contai">
             <div>
                 <h2 className="tex1">El lugar de nuestra boda</h2>
             </div>
@@ -44,7 +44,7 @@ const Site = () => {
                     <Carousel.Item >
                         <img
                             className="w-100 jpg"
-                            src="../assets/012.jpg"
+                            src="../assets/012.png"
                             alt="second slide"
                         />
                         <Carousel.Caption className='carru-capti'>

@@ -6,6 +6,10 @@
 
     }
 
+    .contai {
+        padding: 45px 5px;
+    }
+
     .carru-capti {
         padding: 0;
     }
@@ -39,6 +43,10 @@
 }
 
 @media (min-width: 1024px) {
+    .contai {
+        padding: 50px;
+    }
+
     .carrusel {
         Padding: 40px 40px;
         /* position: relative; */
@@ -100,11 +108,11 @@
     border: 2px solid white;
 }
 
-/* .jpg {
+.jpg {
     filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0));
     /* opacity: 0.1; */
-/* background-size: cover; */
-/* background-image: url(/public/assets/011.jpg); */
-/* background-color: rgba(0, 0, 0, 0.1); */
-/* position: relative; */
-/* } */
+    /* background-size: cover; */
+    /* background-image: url(/public/assets/011.jpg); */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    /* position: relative; */
+}
