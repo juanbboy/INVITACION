@@ -22,9 +22,9 @@ const Site = () => {
             </div>
             <div className='carrusel'>
                 <Carousel >
-                    <Carousel.Item >
+                    <Carousel.Item className='caja'>
                         <img
-                            className="jpg"
+                            className=" w-100 jpg "
                             src="../assets/011.jpg"
                             alt="First slide"
                         />
@@ -43,7 +43,7 @@ const Site = () => {
                     </Carousel.Item>
                     <Carousel.Item >
                         <img
-                            className="jpg"
+                            className="w-100 jpg"
                             src="../assets/012.jpg"
                             alt="second slide"
                         />
