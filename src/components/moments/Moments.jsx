@@ -10,22 +10,22 @@ const Moments = () => {
             </div>
             <div className="row align-items-center p-4 ">
                 <div className="col-md-4 p-2">
-                    <img src="../assets/2.png" width="100%" />
+                    <img src="../assets/001.jpg" width="100%" />
+                </div>
+                <div className="col-md-4 p-2 ">
+                    <img src="../assets/010.png" width="100%" />
                 </div>
                 <div className="col-md-4 p-2 ">
                     <img src="../assets/2.png" width="100%" />
                 </div>
                 <div className="col-md-4 p-2 ">
-                    <img src="../assets/2.png" width="100%" />
+                    <img src="../assets/003.jpeg" width="100%" />
                 </div>
                 <div className="col-md-4 p-2 ">
-                    <img src="../assets/2.png" width="100%" />
+                    <img src="../assets/004.jpg" width="100%" />
                 </div>
                 <div className="col-md-4 p-2 ">
-                    <img src="../assets/2.png" width="100%" />
-                </div>
-                <div className="col-md-4 p-2 ">
-                    <img src="../assets/2.png" width="100%" />
+                    <img src="../assets/005.jpeg" width="100%" />
                 </div>
             </div>
         </div>

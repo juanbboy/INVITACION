@@ -4,6 +4,8 @@ import './sites.css';
 
 
 const Site = () => {
+
+
     const containerStyle = {
         // backgroundImage: `url(${cinco})`,
         // backgroundColor: '#F4F0ED',
@@ -14,43 +16,48 @@ const Site = () => {
     }
 
     return (
-        <div style={containerStyle} className="p-4">
+        <div style={containerStyle} className="p-5">
             <div>
                 <h2 className="tex1">El lugar de nuestra boda</h2>
             </div>
             <div className='carrusel'>
                 <Carousel >
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item >
                         <img
-                            className="d-block w-100"
-                            src="../assets/1.png"
+                            className="d-block w-100 jpg"
+                            src="../assets/013.png"
                             alt="First slide"
                         />
-                        <Carousel.Caption className='text'>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <Carousel.Caption className='carru-capti'>
+                            <h1 className='titu'>Ceremonia</h1>
+                            <p className='parra'>Capilla Madre de la Divina Providencia.
+                                Calle 200. Diagonal a la portería del conjunto de casas prados de Laurentia
+                                Floridablanca, Santander
+                                <br />
+                                5:00 pm
+                            </p>
+                            <a href="https://www.google.com/maps/place/Parroquia+Sagrada+Familia,+Girardot,+Cundinamarca/@4.3000783,-74.8156883,19z/data=!4m5!3m4!1s0x8e3f28e61cf32037:0xab1649598f971287!8m2!3d4.3000227!4d-74.8158941">
+                                <button className='button'>Ver Mapa</button>
+                            </a>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item >
                         <img
-                            className="d-block w-100"
-                            src="../assets/1.png"
-                            alt="Second slide"
+                            className="d-block w-100 jpg"
+                            src="../assets/012.jpg"
+                            alt="First slide"
                         />
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={1000}>
-                        <img
-                            className="d-block w-100"
-                            src="../assets/1.png"
-                            alt="Third slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <Carousel.Caption className='carru-capti'>
+                            <h1 className='titu'>Recepción</h1>
+                            <p className='parra'>Capilla Madre de la Divina Providencia.
+                                Calle 200. Diagonal a la portería del conjunto de casas prados de Laurentia
+                                Floridablanca, Santander
+                                <br />
+                                5:00 pm
+                            </p>
+                            <a href="https://www.google.com/maps/place/Villa+Daniela/@4.2943691,-74.7928928,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f289ac83b6e5f:0xeb7d237f089dfe55!8m2!3d4.2943638!4d-74.7907041" target="_blank" rel="noopener noreferrer">
+                                <button className='button'>Ver Mapa</button>
+                            </a>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

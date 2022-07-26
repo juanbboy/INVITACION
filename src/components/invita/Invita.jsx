@@ -31,7 +31,6 @@ const Invita = () => {
                         </div>
                         <div className='tex2 pad '>
                             <div className='p-3'>Apreciada familia <b style={{ fontWeight: 'bold' }}>{invitadofind.name}</b>, tenemos el gusto de invitarlos a celebrar nuestro matrimonio y que hagan parte de este momento tan especial donde cumpliremos el deseo de unir nuestras vidas bajo la bendición de Dios.</div>
-
                             <div className='p-3'>Recuerda que está invitación es para <b style={{ fontWeight: 'bold' }}>{invitadofind.cant}</b> personas, por favor confirma la asistencia en el formulario al final de la página.</div>
                         </div>
                     </div>

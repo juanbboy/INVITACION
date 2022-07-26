@@ -1,6 +1,21 @@
 @media (min-width: 320px) {
     .carrusel {
-        Padding: 20px 30px;
+        Padding: 20px 5px;
+    }
+
+    .titu {
+        font-size: 20px;
+        margin: 0px 0px 10px;
+    }
+
+    .parra {
+        font-size: 10px;
+        margin: 0px 0px 10px;
+    }
+
+    .button {
+        padding: 4px 10px;
+        font-size: 10px;
     }
 }
 
@@ -17,22 +32,67 @@
 
 @media (min-width: 1024px) {
     .carrusel {
-        Padding: 20px 100px 20px 100px;
+        Padding: 40px 40px;
+        /* position: relative; */
+    }
+
+    .titu {
+        font-size: 37px;
+        margin: 0px 0px 30px;
+    }
+
+    .parra {
+        font-size: 17px;
+        margin: 0px 0px 30px;
+    }
+
+    .button {
+        padding: 8px 20px;
     }
 }
 
-.text {
-    text-align: center;
+.carru-capti {
+    /* text-align: center;
     color: #ffffff;
-    font-family: "Cormorant Garamond", Sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-    font-style: italic;
-    position: absolute;
+    font-family: "Roboto", Sans-serif; */
+    /* font-size: 60px; */
+    /* font-weight: 600; */
+    /* font-style: italic; */
+    /* position: absolute; */
     top: 50%;
     bottom: auto;
     left: 50%;
-    width: 92%;
+    width: 70%;
     padding: 0 25px;
     transform: translate(-50%, -50%);
+
+}
+
+.titu {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    /* font-size: 37px; */
+    font-weight: 600;
+
+
+
+    /* font-style: italic; */
+    /* position: absolute; */
+}
+
+.button {
+
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.jpg {
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0));
+    /* opacity: 0.1; */
+    /* background-size: cover; */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    /* position: relative; */
 }
