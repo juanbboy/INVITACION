@@ -15,18 +15,18 @@
     }
 
     .titu {
-        font-size: 15px;
-        margin: 0px 0px 10px;
+        font-size: 25px;
+        margin: 0px 0px 30px;
     }
 
     .parra {
-        font-size: 7px;
-        margin: 0px 0px 10px;
+        font-size: 14px;
+        margin: 0px 0px 30px;
     }
 
     .button {
         padding: 4px 10px;
-        font-size: 8px;
+        font-size: 12px;
     }
 
 }
