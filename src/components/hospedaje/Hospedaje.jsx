@@ -4,7 +4,7 @@ import './hospedaje.css';
 const Hospedaje = () => {
     return (
         <div className='p-5'>
-            <div className='tex1 p-5 text-center'>OPCIONES DE HOSPEDAJE</div>
+            <div className='tex1 text-center'>OPCIONES DE HOSPEDAJE</div>
             <div className='row text-center'>
                 <div className='col-md-4 cubo'>
                     <div className='tex3'>GHL HOTEL CLUB EL PUENTE</div>
