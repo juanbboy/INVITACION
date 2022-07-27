@@ -45,7 +45,8 @@ const Site = () => {
                     <Carousel.Item >
                         <img
                             className="w-100 jpg"
-                            src="../assets/012.png"
+                            // src="../assets/012.png"
+                            srcset="../assets/020.jpg 320w,../assets/012.png 1024w"
                             alt="second slide"
                             height="525"
                         />
