@@ -27,6 +27,7 @@ const Site = () => {
                             className=" w-100 jpg "
                             src="../assets/011.jpg"
                             alt="First slide"
+                            height="525"
                         />
                         <Carousel.Caption className='carru-capti'>
                             <h1 className='titu'>Ceremonia</h1>
@@ -46,6 +47,7 @@ const Site = () => {
                             className="w-100 jpg"
                             src="../assets/012.png"
                             alt="second slide"
+                            height="525"
                         />
                         <Carousel.Caption className='carru-capti'>
                             <h1 className='titu'>Recepción</h1>
