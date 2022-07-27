@@ -1,0 +1,33 @@
+.tex3 {
+
+    color: #767B4B;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+
+}
+
+.button1 {
+
+    background-color: #767B4B;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 6px;
+    font-weight: 450;
+    /* border-color: #767B4B; */
+    /* background: transparent; */
+    border: 2px solid #767B4B;
+}
+
+.p {
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    padding: 0px 30px;
+}
+
+.cubo {
+    padding: 40px 0px;
+}

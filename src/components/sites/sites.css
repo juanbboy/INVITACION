@@ -44,7 +44,7 @@
 
 @media (min-width: 1024px) {
     .contai {
-        padding: 50px;
+        padding: 100px 50px;
     }
 
     .carrusel {
