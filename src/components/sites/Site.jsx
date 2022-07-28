@@ -52,7 +52,6 @@ const Site = () => {
                             src="../assets/012.jpg"
                             alt="second slide"
                             height="525"
-
                         />
                         <Carousel.Caption className='carru-capti'>
                             <h1 className='titu'>Recepción</h1>

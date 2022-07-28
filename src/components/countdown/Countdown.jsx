@@ -1,8 +1,9 @@
 import { AOS } from "aos";
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import './countdown.css';
-// import cuatro from '../../assets/4.png';
+import "aos/dist/aos.css";
+import cuatro from '../../assets/4.png';
 
 const Countdown = () => {
     const [days, setDays] = useState()
@@ -10,6 +11,7 @@ const Countdown = () => {
     const [mins, setMins] = useState()
     const [seconds, setSeconds] = useState()
     const newYear = '16 oct 2022'
+
 
 
     const countTimer = () => {
@@ -47,12 +49,12 @@ const Countdown = () => {
         <div style={containerStyle} className="fondo">
 
             <div>
-                <div data-aos="fade-up" className="tex1 ">NOS VAMOS A CASAR</div>
+                <div className="tex1 ">NOS VAMOS A CASAR</div>
             </div>
             <div className="imagen">
                 <img width="168" height="15" src="../assets/3.png" className="attachment-medium_large size-medium_large jetpack-lazy-image lazyloaded jetpack-lazy-image--handled" alt="" sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" data-lazy-loaded="1" loading="eager"></img>
             </div>
-            <div data-aos="fade-up" className="tex2">
+            <div className="tex2">
                 <p style={{ textAlign: 'center' }}>¡ya falta poco! y estamos felices de celebrar nuestra unión.</p>
             </div>
             <div className="row justify-content-center colum ">

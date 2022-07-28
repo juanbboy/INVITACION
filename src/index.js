@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Countdown from './components/countdown/Countdown';
+import Formulario from './components/formulario/Formulario';
 import Hospedaje from './components/hospedaje/Hospedaje';
 import Invita from './components/invita/Invita';
 import Moda from './components/moda/Moda';
@@ -20,6 +21,7 @@ root.render(
     <Moments />
     <Moda />
     <Hospedaje />
+    <Formulario />
     {/* <footer className="pt-3 mt-4 text-muted border-top text-center"> */}
     {/* &copy; 2022 */}
     {/* </footer> */}
