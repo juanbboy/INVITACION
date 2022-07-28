@@ -49,7 +49,7 @@ const Site = () => {
                         <img
                             className="w-100 jpg"
                             // src="../assets/012.png"
-                            srcSet="../assets/011.jpg 520w, ../assets/012.jpg 1024w"
+                            src="../assets/012.jpg"
                             alt="second slide"
                             height="525"
 
