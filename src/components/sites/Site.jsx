@@ -1,6 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
 import './sites.css';
+import uno from '../../assets/020.jpg';
+import dos from '../../assets/012.JPG';
 
 
 const Site = () => {
@@ -20,6 +22,7 @@ const Site = () => {
             <div>
                 <h2 className="tex1">El lugar de nuestra boda</h2>
             </div>
+
             <div className='carrusel'>
                 <Carousel >
                     <Carousel.Item className='caja'>
@@ -46,9 +49,10 @@ const Site = () => {
                         <img
                             className="w-100 jpg"
                             // src="../assets/012.png"
-                            srcset="../assets/020.jpg 320w,../assets/012.png 1024w"
+                            srcSet="../assets/020.jpg w320, ../assets/012.jpg 1024w"
                             alt="second slide"
                             height="525"
+
                         />
                         <Carousel.Caption className='carru-capti'>
                             <h1 className='titu'>Recepción</h1>
