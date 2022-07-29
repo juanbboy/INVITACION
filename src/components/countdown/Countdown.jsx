@@ -93,7 +93,7 @@ const Countdown = () => {
             </div>
             <div className="elementor-widget-container">
                 <div className="elementor-text-editor elementor-clearfix">
-                    <p style={{ textAlign: 'center' }}>No olviden por seguridad de todos llevar su tapabocas personal y hacer desinfección de manos continuamente.</p>
+                    <p style={{ textAlign: 'center' }}>Lo mejor de la vida es cuando encontramos personas que saben hacer de pequeños instantes grandes momentos.</p>
                 </div>
             </div>
         </div >
