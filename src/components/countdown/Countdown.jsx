@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import './countdown.css';
 import "aos/dist/aos.css";
-import cuatro from '../../assets/4.png';
 
 const Countdown = () => {
     const [days, setDays] = useState()
