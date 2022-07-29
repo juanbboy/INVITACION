@@ -10,31 +10,31 @@ const Moments = () => {
             </div>
             <div className="row align-items-center p-4 ">
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/020.jpeg" width="385px" height="285" />
+                    <img src="../assets/020.jpeg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/021.jpeg" width="385px" height="285" />
+                    <img src="../assets/021.jpeg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/022.jpeg" width="385px" height="285" />
+                    <img src="../assets/022.jpeg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/023.jpg" width="385px" height="285" />
+                    <img src="../assets/023.jpg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/024.jpeg" width="385px" height="285" />
+                    <img src="../assets/024.jpeg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/025.jpeg" width="385px" height="285" />
+                    <img src="../assets/025.jpeg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/026.png" width="385px" height="285" />
+                    <img src="../assets/026.png" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/027.jpg" width="385px" height="285" />
+                    <img src="../assets/027.jpg" width="100%" height="285" />
                 </div>
                 <div className="col-md-4 p-2 img-fluid">
-                    <img src="../assets/028.png" width="385px" height="285" />
+                    <img src="../assets/028.png" width="100%" height="285" />
                 </div>
             </div>
         </div>
