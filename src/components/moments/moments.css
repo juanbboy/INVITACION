@@ -1,3 +1,13 @@
-.im {
-    max-height: 285px;
+@media (min-width: 320px) {
+
+    .mi {
+        height: 230px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .mi {
+        height: 285px;
+    }
 }
