@@ -5,6 +5,13 @@
     }
 }
 
+@media (min-width: 720px) {
+
+    .mi {
+        height: 275px;
+    }
+}
+
 @media (min-width: 1024px) {
 
     .mi {
