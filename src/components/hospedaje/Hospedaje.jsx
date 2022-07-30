@@ -22,7 +22,7 @@ const Hospedaje = () => {
                         Alojamiento en el lugar de la recepción/ consultar con Juan Carlos o Alejandra
                     </div>
                     <a href="https://api.whatsapp.com/send?phone=573132598775" target="_blank" rel="noopener noreferrer">
-                        <button className='button1'>Ver Web</button>
+                        <button className='button1'>Consulta</button>
                     </a>
                     <br />
                 </div>
