@@ -31,17 +31,6 @@
 
 }
 
-
-.title {
-    color: #767B4B;
-    font-family: "Cormorant Garamond", Sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 1.25em;
-    letter-spacing: 5px;
-}
-
 @media (min-width: 1024px) {
     .contai {
         padding: 100px 50px;

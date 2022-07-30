@@ -28,7 +28,7 @@ const Site = () => {
                     <Carousel.Item className='caja'>
                         <img
                             className=" w-100 jpg "
-                            src="../assets/012.jpg"
+                            src="../assets/012.png"
                             alt="First slide"
                             height="525"
                         />
@@ -48,8 +48,7 @@ const Site = () => {
                     <Carousel.Item >
                         <img
                             className="w-100 jpg"
-                            src="../assets/012.png"
-                            // src="../assets/012.jpg"
+                            src="../assets/011.jpg"
                             alt="second slide"
                             height="525"
                         />
