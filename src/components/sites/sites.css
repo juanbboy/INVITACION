@@ -76,6 +76,7 @@
     left: 50%;
     width: 70%;
     transform: translate(-50%, -50%);
+    filter: opacity(1) drop-shadow(0 0 0 rgb(255, 255, 255));
 
 }
 
@@ -101,7 +102,7 @@
 }
 
 .jpg {
-    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: opacity(0.7) drop-shadow(0 0 0 rgb(0, 0, 0));
     /* opacity: 0.1; */
     /* background-size: cover; */
     /* background-image: url(/public/assets/011.jpg); */

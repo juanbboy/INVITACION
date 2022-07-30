@@ -44,7 +44,7 @@ const Site = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <img
+                        <img opacity='0.2'
                             className="w-100 jpg"
                             src="../assets/011.jpg"
                             alt="second slide"
