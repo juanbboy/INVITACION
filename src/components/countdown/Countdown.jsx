@@ -1,8 +1,6 @@
-import { AOS } from "aos";
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import './countdown.css';
-import "aos/dist/aos.css";
 
 const Countdown = () => {
     const [days, setDays] = useState()
@@ -48,7 +46,7 @@ const Countdown = () => {
         <div style={containerStyle} className="fondo">
 
             <div>
-                <div className="tex1 ">NOS VAMOS A CASAR</div>
+                <div className="tex1" data-aos="fade-up">NOS VAMOS A CASAR</div>
             </div>
             <div className="imagen">
                 <img width="168" height="15" src="../assets/3.png" className="attachment-medium_large size-medium_large jetpack-lazy-image lazyloaded jetpack-lazy-image--handled" alt="" sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" data-lazy-loaded="1" loading="eager"></img>
