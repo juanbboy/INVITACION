@@ -34,9 +34,7 @@ const Site = () => {
                         />
                         <Carousel.Caption className='carru-capti'>
                             <h1 className='titu'>Ceremonia</h1>
-                            <p className='parra'>Capilla Madre de la Divina Providencia.
-                                Calle 200. Diagonal a la portería del conjunto de casas prados de Laurentia
-                                Floridablanca, Santander
+                            <p className='parra'>Parroquia Sagrada Familia, Calle 10 A N. 18A - 43 Barrio Centenario, Girardot, Cundinamarca
                                 <br />
                                 5:00 pm
                             </p>
@@ -54,13 +52,11 @@ const Site = () => {
                         />
                         <Carousel.Caption className='carru-capti'>
                             <h1 className='titu'>Recepción</h1>
-                            <p className='parra'>Capilla Madre de la Divina Providencia.
-                                Calle 200. Diagonal a la portería del conjunto de casas prados de Laurentia
-                                Floridablanca, Santander
+                            <p className='parra'>Milfor Casa Campestre, Calle 9 No 4 - 40 Isla del Sol, Ricaurte, Cundinamarca
                                 <br />
                                 5:00 pm
                             </p>
-                            <a href="https://www.google.com/maps/place/Villa+Daniela/@4.2943691,-74.7928928,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f289ac83b6e5f:0xeb7d237f089dfe55!8m2!3d4.2943638!4d-74.7907041" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.waze.com/es-419/live-map/directions/milfor-casa-campestre-ricaurte-av.-carlos-medina-zarate?to=place.w.186908715.1869152685.24640355" target="_blank" rel="noopener noreferrer">
                                 <button className='button'>Ver Mapa</button>
                             </a>
                         </Carousel.Caption>
