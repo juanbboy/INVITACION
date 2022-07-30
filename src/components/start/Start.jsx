@@ -8,7 +8,7 @@ const Start = () => {
         backgroundImage: `url(${cinco})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        padding: '70px 0px 200px 0px'
+        padding: '70px 0px 230px 0px'
         // opacity: 0.5,
     }
 
