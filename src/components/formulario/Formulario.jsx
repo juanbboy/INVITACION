@@ -7,7 +7,7 @@ const Formulario = () => {
             <div className="tex1 p-3" data-aos="fade-up">Confirma tu Asistencia</div>
             <div data-aos="fade-up">
                 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=pmZCS2gTr0GtWlnrY0962NnveMndEHpBknonPKUckZBUMkdYT05DNEpJMDFWVVNBMThPTkNFMTJJRy4u" target="_blank" rel="noopener noreferrer">
-                    <button className="button1" style={{ padding: '10px 40px' }} >Click Aqui</button>
+                    <button className="button1" style={{ padding: '10px 30px' }} >Click Aqui</button>
                 </a>
             </div>
         </div >
