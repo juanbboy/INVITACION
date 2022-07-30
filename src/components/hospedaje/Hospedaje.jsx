@@ -17,7 +17,7 @@ const Hospedaje = () => {
                     <br />
                 </div>
                 <div className='col-md-4 cubo' data-aos="fade-up">
-                    <div className='tex3'>VILLA DANIELA</div>
+                    <div className='tex3'>MILFOR CASA CAMPESTRE</div>
                     <div className='m-4 p'>
                         Alojamiento en el lugar de la recepción/ consultar con Juan Carlos o Alejandra
                     </div>
