@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import './countdown.css';
+import "aos/dist/aos.css";
 
 const Countdown = () => {
     const [days, setDays] = useState()
