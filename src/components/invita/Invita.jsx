@@ -23,7 +23,7 @@ const Invita = () => {
             {
                 invitadofind.map(invitadofind => (
 
-                    <div className='text-center' style={{ padding: "80px 0px" }}>
+                    <div className='text-center' style={{ padding: "60px 0px" }}>
 
                         <div className='tex1'>ESTÁS INVITADO</div>
                         <div className="imagen">

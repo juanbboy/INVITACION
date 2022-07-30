@@ -52,10 +52,10 @@ const Countdown = () => {
             <div className="imagen">
                 <img width="168" height="15" src="../assets/3.png" className="attachment-medium_large size-medium_large jetpack-lazy-image lazyloaded jetpack-lazy-image--handled" alt="" sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" data-lazy-loaded="1" loading="eager"></img>
             </div>
-            <div className="tex2">
+            <div className="tex2 " data-aos="fade-up" >
                 <p style={{ textAlign: 'center' }}>¡ya falta poco! y estamos felices de celebrar nuestra unión.</p>
             </div>
-            <div className="row justify-content-center colum ">
+            <div className="row justify-content-center colum " data-aos="fade-up">
                 <div className="col-3">
                     <div className="countdown-container">
                         <div className="number">
@@ -89,7 +89,7 @@ const Countdown = () => {
                     </div>
                 </div>
             </div>
-            <div className="elementor-widget-container">
+            <div className="elementor-widget-container " data-aos="fade-up">
                 <div className="elementor-text-editor elementor-clearfix">
                     <p style={{ textAlign: 'center' }}>Lo mejor de la vida es cuando encontramos personas que saben hacer de pequeños instantes grandes momentos.</p>
                 </div>

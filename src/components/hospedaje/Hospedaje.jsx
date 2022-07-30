@@ -4,9 +4,9 @@ import './hospedaje.css';
 const Hospedaje = () => {
     return (
         <div className='p-5'>
-            <div className='tex1 text-center'>OPCIONES DE HOSPEDAJE</div>
+            <div className='tex1 text-center' data-aos="fade-up">OPCIONES DE HOSPEDAJE</div>
             <div className='row text-center'>
-                <div className='col-md-4 cubo'>
+                <div className='col-md-4 cubo' data-aos="fade-up">
                     <div className='tex3'>GHL HOTEL CLUB EL PUENTE</div>
                     <div className='m-4 p'>
                         Km. 2 Vía, Girardot - Melgar, Girardot-Carmen De Apicalá, Girardot, Cundinamarca
@@ -16,7 +16,7 @@ const Hospedaje = () => {
                     </a>
                     <br />
                 </div>
-                <div className='col-md-4 cubo'>
+                <div className='col-md-4 cubo' data-aos="fade-up">
                     <div className='tex3'>VILLA DANIELA</div>
                     <div className='m-4 p'>
                         Alojamiento en el lugar de la recepción/ consultar con Juan Carlos o Alejandra
@@ -26,7 +26,7 @@ const Hospedaje = () => {
                     </a>
                     <br />
                 </div>
-                <div className='col-md-4 cubo'>
+                <div className='col-md-4 cubo' data-aos="fade-up">
                     <div className='tex3'>BOOKING</div>
                     <div className='m-4 p'>
                         Plataforma digital dedicada a la oferta de alojamientos a particulares

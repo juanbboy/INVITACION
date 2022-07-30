@@ -4,8 +4,8 @@ import './formulario.css';
 const Formulario = () => {
     return (
         <div className="conte text-center p-4" >
-            <div className="tex1 p-5">Confirma tu Asistencia</div>
-            <div>
+            <div className="tex1 p-5" data-aos="fade-up">Confirma tu Asistencia</div>
+            <div data-aos="fade-up">
                 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=pmZCS2gTr0GtWlnrY0962NnveMndEHpBknonPKUckZBUMkdYT05DNEpJMDFWVVNBMThPTkNFMTJJRy4u" target="_blank" rel="noopener noreferrer">
                     <button className="button1" style={{ padding: '10px 40px' }} >Click Aqui</button>
                 </a>

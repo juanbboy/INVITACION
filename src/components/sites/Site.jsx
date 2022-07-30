@@ -20,11 +20,11 @@ const Site = () => {
     return (
         <div style={containerStyle} className="contai">
             <div>
-                <h2 className="tex1">El lugar de nuestra boda</h2>
+                <h2 className="tex1" data-aos="fade-up">El lugar de nuestra boda</h2>
             </div>
 
             <div className='carrusel'>
-                <Carousel >
+                <Carousel data-aos="fade-up">
                     <Carousel.Item className='caja'>
                         <img
                             className=" w-100 jpg "
