@@ -22,7 +22,7 @@ export const invitado = [
     { "id": "21", "name": "Carolina Herrera y Camilo Pagotty", "cant": "2" },
     { "id": "22", "name": "Angela Rubio e Hijo", "cant": "2" },
     { "id": "23", "name": "Angel Rubio y Flor Pinilla", "cant": "2" },
-    { "id": "24", "name": "Paola Herrera, Ferney Camelo e Hijo", "cant": "2" },
+    { "id": "24", "name": "Paola Herrera, Oscar Camelo e Hijo", "cant": "2" },
     { "id": "25", "name": "Liz Camargo y Juan Daza", "cant": "2" },
     { "id": "26", "name": "Natalie Fontalvo", "cant": "1" },
     { "id": "27", "name": "Stefani Pulgarin", "cant": "1" },
