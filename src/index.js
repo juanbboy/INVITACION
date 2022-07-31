@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import Countdown from './components/countdown/Countdown';
 import Formulario from './components/formulario/Formulario';
 import Hospedaje from './components/hospedaje/Hospedaje';
@@ -11,30 +10,25 @@ import Site from './components/sites/Site';
 import Start from './components/start/Start';
 import './index.css';
 
-ReactDOM.render(
-  <Start />,
-  // <Invita />,
-  // <Countdown />,
-  // <Site />,
-  // <Moments />,
-  // <Moda />,
-  // <Hospedaje />,
-  // <Formulario />,
-  // <footer className="pt-3 mt-4 text-muted border-top text-center">
-  //   &copy; 2022
-  // </footer>,
-  document.getElementById('root')
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <React.StrictMode>
+
+    <Start />
+    <Invita />
+    <Countdown />
+    <Site />
+    <Moments />
+    <Moda />
+    <Hospedaje />
+    <Formulario />
+    <footer className="pt-3 mt-4 text-muted border-top text-center">
+      &copy; 2022
+    </footer>
+    {/* </div> */}
+  </React.StrictMode>
 );
-
-
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-
-  
-//     {/* </div> */}
-  
-// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
