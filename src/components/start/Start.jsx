@@ -14,7 +14,6 @@ const Start = () => {
 
 
     return (
-
         <div style={containerStyle} className='base' >
             <h1 className='text1 p-2' style={{ color: "#767B4B", fontFamily: 'Cormorant Garamond', textAlign: "center", fontWeight: 'bold' }}>NUESTRA BODA </h1>
             <h1 className='text2 p-4' data-aos="fade-up" style={{ color: "#3D4212", fontFamily: 'Cormorant Garamond', textAlign: "center", fontWeight: '450' }}>JUAN CARLOS <em>&amp;</em> ALEJANDRA</h1>

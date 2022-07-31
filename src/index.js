@@ -16,17 +16,16 @@ root.render(
   <React.StrictMode>
 
     <Start />
-    {/* <Invita />
+    <Invita />
     <Countdown />
     <Site />
     <Moments />
     <Moda />
     <Hospedaje />
-    <Formulario /> */}
+    <Formulario />
     <footer className="pt-3 mt-4 text-muted border-top text-center">
       &copy; 2022
     </footer>
-    {/* </div> */}
   </React.StrictMode>
 );
 
