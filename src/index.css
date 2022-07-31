@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* height: 100%; */
   /* display: flexbox; */
+  overflow-x: hidden;
   /* overflow-x: hidden; */
 }
 

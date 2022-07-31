@@ -49,7 +49,7 @@ const Countdown = () => {
                 <div className="tex1" data-aos="fade-up">NOS VAMOS A CASAR</div>
             </div>
             <div className="imagen">
-                <img width="168" height="15" src="../assets/3.png" className="attachment-medium_large size-medium_large jetpack-lazy-image lazyloaded jetpack-lazy-image--handled" alt="" sizes="(max-width: 768px) 100vw, 768px" data-ll-status="loaded" data-lazy-loaded="1" loading="eager"></img>
+                <img width="168" height="15" src="../assets/3.png" ></img>
             </div>
             <div className="tex2 " data-aos="fade-up" >
                 <p style={{ textAlign: 'center' }}>¡ya falta poco! y estamos felices de celebrar nuestra unión.</p>
