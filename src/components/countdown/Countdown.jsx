@@ -45,7 +45,6 @@ const Countdown = () => {
     return (
 
         <div style={containerStyle} className="fondo">
-
             <div>
                 <div className="tex1" data-aos="fade-up">NOS VAMOS A CASAR</div>
             </div>
