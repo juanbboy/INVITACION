@@ -19,7 +19,7 @@ const Invita = () => {
     console.log();
 
     return (
-        <div>
+        <div >
             {
                 invitadofind.map(invitadofind => (
 

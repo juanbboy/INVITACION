@@ -36,7 +36,7 @@ const Site = () => {
                             <h1 className='titu'>Ceremonia</h1>
                             <p className='parra'>Parroquia Sagrada Familia, Calle 10 A N. 18A - 43 Barrio Centenario, Girardot, Cundinamarca
                                 <br />
-                                5:00 pm
+                                6:00 pm
                             </p>
                             <a href="https://www.google.com/maps/place/Parroquia+Sagrada+Familia,+Girardot,+Cundinamarca/@4.3000783,-74.8156883,19z/data=!4m5!3m4!1s0x8e3f28e61cf32037:0xab1649598f971287!8m2!3d4.3000227!4d-74.8158941">
                                 <button className='button'>Ver Mapa</button>
@@ -54,7 +54,7 @@ const Site = () => {
                             <h1 className='titu'>Recepción</h1>
                             <p className='parra'>Milfor Casa Campestre, Calle 9 No 4 - 40 Isla del Sol, Ricaurte, Cundinamarca
                                 <br />
-                                6:00 pm
+                                7:00 pm
                             </p>
                             <a href="https://www.waze.com/es-419/live-map/directions/milfor-casa-campestre-ricaurte-av.-carlos-medina-zarate?to=place.w.186908715.1869152685.24640355" target="_blank" rel="noopener noreferrer">
                                 <button className='button'>Ver Mapa</button>
