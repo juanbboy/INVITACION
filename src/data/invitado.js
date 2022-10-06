@@ -34,6 +34,7 @@ export const invitado = [
     { "id": "33", "name": "Liliana y Alejandra", "cant": "2" },
     { "id": "34", "name": "Willian, Yesica e Hija", "cant": "3" },
     { "id": "35", "name": "Yudy Gracia", "cant": "1" },
-    { "id": "36", "name": "Daniel Carvajal", "cant": "1" }
+    { "id": "36", "name": "Daniel Carvajal", "cant": "1" },
+    { "id": "37", "name": "Maria Paula Diaz", "cant": "1" }
 
 ]

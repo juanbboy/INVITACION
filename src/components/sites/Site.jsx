@@ -36,7 +36,7 @@ const Site = () => {
                             <h1 className='titu'>Ceremonia</h1>
                             <p className='parra'>Parroquia Sagrada Familia, Calle 10 A N. 18A - 43 Barrio Centenario, Girardot, Cundinamarca
                                 <br />
-                                6:00 pm
+                                5:30 pm
                             </p>
                             <a href="https://www.google.com/maps/place/Parroquia+Sagrada+Familia,+Girardot,+Cundinamarca/@4.3000783,-74.8156883,19z/data=!4m5!3m4!1s0x8e3f28e61cf32037:0xab1649598f971287!8m2!3d4.3000227!4d-74.8158941">
                                 <button className='button'>Ver Mapa</button>
