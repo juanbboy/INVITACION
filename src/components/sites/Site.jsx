@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
 import './sites.css';
-import uno from '../../assets/020.jpg';
-import dos from '../../assets/012.JPG';
+// import uno from '../../assets/020.jpg';
+// import dos from '../../assets/012.JPG';
 
 
 const Site = () => {

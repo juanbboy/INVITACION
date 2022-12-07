@@ -1,12 +1,12 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import queryString from 'query-string';
 import { getInvitado } from '../../selectors/getInvitado';
 import './invita.css';
 
 
 const Invita = () => {
-    const [name, setName] = useState('xxxx')
-    const [num, setNum] = useState('xxxx')
+    // const [name, setName] = useState('xxxx')
+    // const [num, setNum] = useState('xxxx')
 
     //    `` //    const location = useLocation();
 
